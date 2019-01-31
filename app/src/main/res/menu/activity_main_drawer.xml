@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/sale_detail"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Sale Detail" />
+        <item
+            android:id="@+id/purchase_detail"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Purchase Detail" />
+        <item
+            android:id="@+id/inner_stock"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Inner Stock" />
+        <item
+            android:id="@+id/main_stock"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Main Stock" />
+    </group>
+
+    <item android:title="Medicine">
+        <menu>
+            <item
+                android:id="@+id/add_medicine"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Add Medicine" />
+            <item
+                android:id="@+id/manage_medicine"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Manage Medicine" />
+        </menu>
+    </item>
+    <item android:title="Patient">
+        <menu>
+            <item
+                android:id="@+id/add_patient"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Add Patient" />
+            <item
+                android:id="@+id/manage_patient"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Manage Patient" />
+        </menu>
+    </item>
+    <item android:title="Settings">
+        <menu>
+            <item
+                android:id="@+id/medicine_setting"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Medicine Setting" />
+            <item
+                android:id="@+id/patient_setting"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Patient Setting" />
+        </menu>
+    </item>
+    <item android:title="Personal Setting">
+        <menu>
+            <item
+                android:id="@+id/add_expenses"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Add Daily Expenses" />
+            <item
+                android:id="@+id/view_expenses"
+                android:icon="@drawable/ic_menu_share"
+                android:title="View Daily Expenses" />
+            <item
+                android:id="@+id/add_task"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Add Task" />
+            <item
+                android:id="@+id/view_task"
+                android:icon="@drawable/ic_menu_send"
+                android:title="View Task" />
+        </menu>
+    </item>
+
+</menu>
+
